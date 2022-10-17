@@ -8,6 +8,7 @@ use App\Models\Event;
 use Response;
 use Yajra\DataTables\DataTables;
 
+use Carbon\Carbon;
 
 
 
@@ -248,4 +249,30 @@ class EventController extends Controller
                 ->rawColumns(['action'])
                 ->make(true);
     }
+//Api requests
+    public function detailEvent(Request $request)
+    { 
+        $new_event = Event::where('id',$request->event_id)->first();
+
+        return Response::json($new_event);
+    }
+
+    public function allEvents(Request $request)
+    {
+        $event_type  = $request->event_type;
+        $events = Event::where('event_type',$event_type)->get();
+        return Response::json(['status'=>true,'message'=>'data fetched successfully','data'=>$events]);
+
+    }
+
+    public function upcomingEvent(Request $request)
+    {
+        $date = Carbon::now()->format('Y/m/d');
+
+        $events = Event::whereDate('date', '>=',$date )->get();
+        return Response::json(['status'=>true,'message'=>'data fetched successfully','data'=>$events]);
+
+    }
+
+  
 }

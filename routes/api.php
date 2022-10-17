@@ -4,6 +4,8 @@ use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\Api\LoginController;
 use App\Http\Controllers\Api\PostController;
+use App\Http\Controllers\EventController;
+
 
 /*
 |--------------------------------------------------------------------------
@@ -20,10 +22,13 @@ Route::prefix('v1')->group(function () {
     Route::post('register', [LoginController::class, 'register']);
 
     Route::middleware('auth:api')->group(function () {
-        Route::get('posts', function(){
+        Route::get('hii', function(){
             echo "Hello";
         });
         
-        Route::post('/add_event', [EventController::class, 'addEventApi'])->name('gosala.addeventapi');
+        Route::post('/add_event', [EventController::class, 'updateEvent'])->name('gosala.addeventapi');
+        Route::post('/get_detail', [EventController::class, 'detailEvent'])->name('gosala.getdetail');
+        Route::post('/all-events/{event_type}', [EventController::class, 'allEvents'])->name('gosala.allevents');
+        Route::post('/all_upcoming', [EventController::class, 'upcomingEvent'])->name('gosala.upcoming');
     });
 });
