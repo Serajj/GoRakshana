@@ -1471,7 +1471,7 @@
             <div class="container clearfix et_menu_container">
                 <div class="logo_container">
                     <span class="logo_helper"></span>
-                    <a href="index.html">
+                    <a href="https://appdemo.testconference.xyz/gorakshana/index.html">
                         <img id="logon" src="{{asset('wp-content')}}/uploads/2021/01/New-Project-66.png"
                             alt="GoRakshana" id="logo" data-height-percentage="80" />
                     </a>
@@ -1481,7 +1481,7 @@
                         <ul id="top-menu" class="nav">
                             <li id="menu-item-81"
                                 class="menu-item menu-item-type-post_type menu-item-object-page menu-item-home current-menu-item page_item page-item-78 current_page_item menu-item-81">
-                                <a href="index.html" aria-current="page">Home</a>
+                                <a href="https://appdemo.testconference.xyz/gorakshana/index.html" aria-current="page">Home</a>
                             </li>
                             <li id="menu-item-661"
                                 class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-661">
@@ -1489,50 +1489,50 @@
                                 <ul class="sub-menu">
                                     <li id="menu-item-94"
                                         class="menu-item menu-item-type-post_type menu-item-object-page menu-item-94"><a
-                                            href="vision-and-mission/index.html">Vision and mission</a></li>
+                                            href="https://appdemo.testconference.xyz/gorakshana/vision-and-mission/index.html">Vision and mission</a></li>
                                     <li id="menu-item-150"
                                         class="menu-item menu-item-type-post_type menu-item-object-page menu-item-150">
-                                        <a href="history/index.html">History</a>
+                                        <a href="https://appdemo.testconference.xyz/gorakshana/history/index.html">History</a>
                                     </li>
                                     <li id="menu-item-151"
                                         class="menu-item menu-item-type-post_type menu-item-object-page menu-item-151">
-                                        <a href="governes/index.html">Governes</a>
+                                        <a href="https://appdemo.testconference.xyz/gorakshana/governes/index.html">Governes</a>
                                     </li>
                                     <li id="menu-item-152"
                                         class="menu-item menu-item-type-post_type menu-item-object-page menu-item-152">
-                                        <a href="statutary-certification/index.html">statutary certification</a>
+                                        <a href="https://appdemo.testconference.xyz/gorakshana/statutary-certification/index.html">statutary certification</a>
                                     </li>
                                     <li id="menu-item-96"
                                         class="menu-item menu-item-type-post_type menu-item-object-page menu-item-96"><a
-                                            href="services/index.html">Other Services</a></li>
+                                            href="https://appdemo.testconference.xyz/gorakshana/services/index.html">Other Services</a></li>
                                 </ul>
                             </li>
                             <li id="menu-item-201"
                                 class="menu-item menu-item-type-post_type menu-item-object-page menu-item-201"><a
-                                    href="meet-our-cows/index.html">Meet our cows</a></li>
+                                    href="https://appdemo.testconference.xyz/gorakshana/meet-our-cows/index.html">Meet our cows</a></li>
                             <li id="menu-item-887"
                                 class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-887">
                                 <a href="#">Gallery</a>
                                 <ul class="sub-menu">
                                     <li id="menu-item-310"
                                         class="menu-item menu-item-type-post_type menu-item-object-page menu-item-310">
-                                        <a href="gallery/index.html">Images</a>
+                                        <a href="https://appdemo.testconference.xyz/gorakshana/gallery/index.html">Images</a>
                                     </li>
                                     <li id="menu-item-311"
                                         class="menu-item menu-item-type-post_type menu-item-object-page menu-item-311">
-                                        <a href="videos/index.html">Videos</a>
+                                        <a href="https://appdemo.testconference.xyz/gorakshana/videos/index.html">Videos</a>
                                     </li>
                                 </ul>
                             </li>
                             <li id="menu-item-202"
                                 class="menu-item menu-item-type-post_type menu-item-object-page menu-item-202"><a
-                                    href="join-as-a-life-patron-2/index.html">Join as a life patron</a></li>
+                                    href="https://appdemo.testconference.xyz/gorakshana/join-as-a-life-patron-2/index.html">Join as a life patron</a></li>
                             <li id="menu-item-203"
                                 class="menu-item menu-item-type-post_type menu-item-object-page menu-item-203"><a
-                                    href="gosala-produces-2/index.html">Gosala Produces</a></li>
+                                    href="https://appdemo.testconference.xyz/gorakshana/gosala-produces-2/index.html">Gosala Produces</a></li>
                             <li id="menu-item-95"
                                 class="menu-item menu-item-type-post_type menu-item-object-page menu-item-95"><a
-                                    href="contact/index.html">Contact Us</a></li>
+                                    href="https://appdemo.testconference.xyz/gorakshana/contact/index.html">Contact Us</a></li>
                         </ul>
                     </nav>
 
